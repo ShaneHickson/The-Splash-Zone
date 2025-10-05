@@ -78,6 +78,15 @@ function App() {
           </div>
         )}
       </div>
+      
+      <div className="splashzone-bio">
+        <p>
+          <strong>The Splash Zone</strong> is where fun meets chaos! 💦 A crew of creators who bring
+          laughs, wild challenges, and plenty of splashes to every video. From epic moments to
+          hilarious fails, we’re all about keeping the energy high and the vibes wetter than ever!💧 
+          Playing silly games for even sillier videos! 🌊
+        </p>
+      </div>
 
       {/* YouTube section */}
       <div className="video-container">
