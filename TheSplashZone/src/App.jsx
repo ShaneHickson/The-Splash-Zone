@@ -21,7 +21,7 @@ function App() {
     { img: splasher21, name: "Markus", bio: "The greatest and the whitest 😸", stats: { Wetness: 7, Trolling: 4, Speedrunning: 8, Aura: 7  } },
     { img: splasher22, name: "Arya", bio: " The diversity hire💡", stats: { Wetness: 9, Trolling: 7, Speedrunning: 1,Aura: 9  } },
     { img: splasher12, name: "Cole", bio: "Handsome, genius, kind, humble 🥳", stats: { Wetness: 7, Trolling: 4, Speedrunning: 5, Aura: 10  } },
-    { img: splasher01, name: "Han", bio: "Chill genius who brings balance to the zone 😎", stats: { Wetness: 8, Trolling: 8, Speedrunning: 2,Aura: 8} }
+    { img: splasher01, name: "Han", bio: "Chill genius who brings balance to the zone 😎", stats: { Wetness: 10, Trolling: 4, Speedrunning: 2,Aura: 10} }
   ];
 
   const toggleFigure = (index) => {
