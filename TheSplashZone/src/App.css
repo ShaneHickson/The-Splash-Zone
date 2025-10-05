@@ -1,71 +1,80 @@
+/* Make the root container flexible */
 #root {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
+/* Title styling */
 h1 {
   color: #0077ff;
-  text-align: center;
   font-family: 'Dosis', sans-serif;
+  font-size: clamp(1.8rem, 4vw, 3rem); /* scales smoothly */
+  margin-top: 6rem; /* leave space for top-left logo */
 }
 
 p {
-  text-align: center;
-  font-size: 18px;
+  font-size: clamp(1rem, 2vw, 1.25rem);
 }
 
+/* Logo in top-left corner */
 .top-left-logo {
   position: fixed;
-  top: 2rem;       /* use rem for scalable spacing */
-  left: 2rem;
-  width: 12vw;     /* 10% of the viewport width */
-  max-width: 500px; /* don’t let it get too big */
-  height: auto;     /* keep aspect ratio */
+  top: 1rem;
+  left: 1rem;
+  width: 12vw;
+  max-width: 120px;
+  height: auto;
   z-index: 1000;
 }
 
-/* Make it smaller on tiny screens */
+/* Stick figure grid */
+.stick-figures {
+  display: flex;
+  flex-wrap: wrap;           /* allow wrapping on small screens */
+  justify-content: center;   /* center align */
+  gap: 1rem;                 /* space between figures */
+  margin-top: 2rem;
+}
+
+.stick-figures img {
+  width: clamp(50px, 10vw, 100px);
+  height: clamp(50px, 10vw, 100px);
+  object-fit: contain;
+}
+
+.stick-figures img:hover {
+  transform: scale(1.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  img.invert-on-dark {
+    filter: invert(1);
+  }
+}
+
+/* YouTube button */
+.youtube-logo {
+  width: clamp(40px, 8vw, 60px);
+  height: auto;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.youtube-logo:hover {
+  transform: scale(1.1);
+}
+
+
+/* Mobile adjustments */
 @media (max-width: 600px) {
+  #root {
+    padding: 0.5rem;
+  }
+
   .top-left-logo {
-    width: 15vw;
-    max-width: 60px;
+    width: 20vw;
+    max-width: 80px;
   }
 }
