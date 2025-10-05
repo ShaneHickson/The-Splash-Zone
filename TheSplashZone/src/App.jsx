@@ -44,7 +44,9 @@ function App() {
         </a>
         <p>Where we splash on your zone!</p>
       </div>
-
+      <div><p className="stick-figures-text">
+        Meet the splash crew! 💦 These are the legends behind the zone.
+      </p></div>
       {/* Stick figures grid */}
       <div className="stick-figures">
         {figures.map((fig, index) => (
