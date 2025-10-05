@@ -40,3 +40,32 @@
 .read-the-docs {
   color: #888;
 }
+
+h1 {
+  color: #0077ff;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.top-left-logo {
+  position: fixed;
+  top: 2rem;       /* use rem for scalable spacing */
+  left: 2rem;
+  width: 12vw;     /* 10% of the viewport width */
+  max-width: 500px; /* don’t let it get too big */
+  height: auto;     /* keep aspect ratio */
+  z-index: 1000;
+}
+
+/* Make it smaller on tiny screens */
+@media (max-width: 600px) {
+  .top-left-logo {
+    width: 15vw;
+    max-width: 60px;
+  }
+}
