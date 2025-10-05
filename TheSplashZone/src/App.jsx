@@ -16,7 +16,7 @@ function App() {
 
   const figures = [
     { img: splasher10, name: "Shane", bio: "Just a yellow guy that loves bananas 🍌", stats: { Wetness: 7, Trolling: 7, Speedrunning: 7,Aura: 5 } },
-    { img: splasher11, name: "Kian", bio: "The most cool and preformative 🌹", stats: { Wetness: 10, Trolling: 5, Speedrunning: 2,Aura: 9  } },
+    { img: splasher11, name: "Kian", bio: "The most cool and performative 🌹", stats: { Wetness: 10, Trolling: 5, Speedrunning: 2,Aura: 9  } },
     { img: splasher20, name: "Bryan", bio: "Master of splashes and cool intros 🌊", stats: { Wetness: 3, Trolling: 10, Speedrunning: 10,Aura: 3 } },
     { img: splasher21, name: "Markus", bio: "The greatest and the whitest 😸", stats: { Wetness: 7, Trolling: 4, Speedrunning: 8, Aura: 7  } },
     { img: splasher22, name: "Arya", bio: " The diversity hire💡", stats: { Wetness: 9, Trolling: 7, Speedrunning: 1,Aura: 9  } },
