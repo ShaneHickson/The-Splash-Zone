@@ -26,7 +26,7 @@ function App() {
     { img: splasher11,alias: "Keieon", name: "(Kian)", bio: "The most cool and performative 🌹", stats: { Wetness: 10, RageBaiting: 5, Speedrunning: 2,Aura: 9,Brainrot: 7  }, colour: "#00ff37ff" },
     { img: splasher22,alias: "Area", name: "(Arya)", bio: " The diversity hire 💡", stats: { Wetness: 9, RageBaiting: 7, Speedrunning: 1,Aura: 9, Brainrot:6  }, colour: "#0b1f26" },
     { img: splasher12,alias: "Masagoro", name: "(Cole)", bio: "Handsome, genius, kind, humble 🥳", stats: { Wetness: 7, RageBaiting: 4, Speedrunning: 5, Aura: 10,Brainrot: 7  }, colour: "#fffb00ff" },
-    { img: splasher01,alias: "Typyc", name: "(Han)", bio: "Chill genius who brings balance to the zone 😎", stats: { Wetness: 10, RageBaiting: 4, Speedrunning: 2,Aura: 10,Brainrot: 6}, colour: "#ffae00ff" },
+    { img: splasher01,alias: "Typyc", name: "(Han)", bio: "Chill genius who brings balance to the zone 😎", stats: { Wetness: 10, RageBaiting: 4, Speedrunning: 2,Aura: 10,Brainrot: 6}, colour: "#badaefff" },
     { img: newsplasher00,alias: "Bing Bong", name: "(Kai)", bio: "Chaotic genius of the jungle 🐒", stats: { Wetness: 7, RageBaiting: 5, Speedrunning: 1,Aura: 7,Brainrot: 7}, colour: "#ff0055ff" },
     { img: newsplasher11,alias: "Jake", name: "(Jake)", bio: "NULL 🤓", stats: { Wetness: 4, RageBaiting: 4, Speedrunning: 2,Aura: 10, Brainrot:6},colour: "#ffffffff" },
     { img: newsplasher01,alias: "Dino1", name: "(Brandon)", bio: "Genuinely Braindead 💀", stats: { Wetness: 6, RageBaiting: 8, Speedrunning: 8,Aura: 4,Brainrot: 7}, colour: "#adb814ff" },
