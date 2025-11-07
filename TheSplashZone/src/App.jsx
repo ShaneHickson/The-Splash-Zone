@@ -11,7 +11,7 @@ import splasher21 from './assets/markuswchar.png';
 import splasher22 from './assets/aryachar.png';
 import newsplasher00 from './assets/kaichar.png';
 import newsplasher01 from './assets/brandonchar.png';
-import newsplasher10 from './assets/Christian.png';
+import newsplasher10 from './assets/christian.png';
 import newsplasher11 from './assets/jakechar.png';
 import WaterBackground from './waterbackground.jsx';
 import KawaiiAudioPlayer from "./Musix.jsx";
