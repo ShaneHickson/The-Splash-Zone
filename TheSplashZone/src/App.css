@@ -25,10 +25,21 @@ p {
     position: fixed;
     top: 1rem;
     left: 1rem;
-    width: 12vw;
-    max-width: 120px;
+   width: 120px;
     height: auto;
     z-index: 1000;
+}
+
+/*bottom left*/
+.bottom-left-musix-player {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+  width: 120px;
+    height: auto;
+    z-index: 1000;
+    padding-left:0px;
+
 }
 
 /* Stick figure grid */
@@ -41,18 +52,25 @@ p {
     gap: 0.5rem;
     /* space between figures */
     margin-top: 2rem;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
     /* white with 60% opacity */
     padding: 1rem;
     /* some space inside */
     border-radius: 10px;
     /* rounded corners (optional) */
+   max-width: 900px;
 }
 
 .stick-figures img {
     width: clamp(50px, 10vw, 100px);
     height: clamp(50px, 10vw, 100px);
     object-fit: contain;
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: #ff02f2;
+    border-radius:8ric;
+    border-width: 10px;
 }
 
 .stick-figures img:hover {
@@ -143,19 +161,33 @@ p {
     padding: 1rem;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 8px;
-    text-align: left;
     font-size: 0.9rem;
+    max-width: 900px;
+    text-align: left;
+    /* ✅ This puts text left + image right */
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.bio .figure-img {
+    width: 35%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+.bio > *:first-child {
+    flex: 1;   /* text takes remaining space */
 }
 
 /* Show when active */
 .stick-figure.active .bio {
-    display: block;
+    display: flex;
 }
 
 .splashzone-bio {
   max-width: 900px;
   margin: 2rem auto 1rem;
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   padding: 1rem 1.5rem;
   font-size: 1.1rem;
