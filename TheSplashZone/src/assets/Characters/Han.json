@@ -1,0 +1,33 @@
+{ 
+    "img": "splasher01",
+    "alias": "Typyc",
+    "name": "(Han)",
+    "bio": "D1 hater 👺", 
+    "stats": 
+    { 
+        "Wetness": 4,
+        "RageBaiting": 5, 
+        "Speedrunning": 8, 
+        "Aura": 9,
+        "Brainrot": 7
+    }, 
+    "colour": "#B2D6DC", 
+    "role":" Hater",
+    "Weapon1":
+    {
+        "WeaponName":"Reel Revolver",
+        "Primary":"Double Tap", 
+        "PrimaryD":"Fires two shots back-to-back, the second shot will deal bonus damage.",
+        "Secondary":"Repost",
+        "SecondaryD":"Marks an enemy with repost tag, their location is revealed, any damage they take from an ally detonates the mark and deals bonus damage."
+    },
+
+    "Ability1": "Keyboard Warrior",
+    "Ability1D":"Gain attack speed, and increased damage for a short duration.",
+    "Ability2":"Chronically Online",
+    "Ability2D":"Channel for 5 seconds, stalk to reveal a random enemy's location on the map.",
+    "Passive": "Locking in",
+    "PassiveD": " After scoring a takedown or assist, gain bonus movement speed and reduce / refresh Keyboard warrior cooldown.",
+    "Ultimate": "Crashing out",
+    "UltimateD":"Nukes you."
+}

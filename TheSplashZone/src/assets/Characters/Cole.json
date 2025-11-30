@@ -1,0 +1,32 @@
+{ 
+    "img": "splasher12",
+    "alias": "Masagoro", 
+    "name": "(Cole)",
+    "bio": "Handsome, genius, kind, humble 🥳", 
+    "stats": 
+    { 
+        "Wetness": 7,
+        "RageBaiting": 4, 
+        "Speedrunning": 5, 
+        "Aura": 10,
+        "Brainrot": 7  
+    }, 
+    "colour": "#fffb00ff", 
+    "role":"Support, Buffer/Debuffer, Movespeed",
+    "Weapon1":
+    {
+        "WeaponName":"The Sucker",
+        "Primary":"Speed Sucker", 
+        "PrimaryD":"High firerate low damage, each hit leaves mark on target slowing them by 1%.",
+        "Secondary":"Health Sucker",
+        "SecondaryD":"High firerate low damage, each hit leaves mark on target decreasing their max health by 1%."
+    },
+    "Ability1": "Yoink",
+    "Ability1D":"Removes all suckers in enemies and provides a movespeed and shield to all nearby allies based on the number of suckers.",
+    "Ability2":"Mating Net",
+    "Ability2D":"A projectile stun, if it hits get a movespeed and attack speed buff for a short time.",
+    "Passive": "Aura",
+    "PassiveD": "Allies nearby heal and deal increased damage, this effect increases with stacks of ego. When hitting an enemy gain stacks of ego that constantly decay.",
+    "Ultimate": "Power Trip",
+    "UltimateD":"Immediately max aura stacks. weapon shoots faster, deals more damage and has unlimited ammo. gain a shield. Potency of debuffs increased. Yoink does not consume suckers while active."
+}

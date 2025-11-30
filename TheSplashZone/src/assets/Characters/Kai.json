@@ -1,0 +1,32 @@
+{ 
+    "img": "newsplasher00",
+    "alias": "Bing Bong", 
+    "name": "(Kai)",
+    "bio": "Chaotic genius of the jungle 🐒", 
+    "stats": 
+    { 
+        "Wetness": 7,
+        "RageBaiting": 7, 
+        "Speedrunning": 1, 
+        "Aura": 7,
+        "Brainrot": 7  
+    }, 
+    "colour": "#068f22ff", 
+    "role":"Assassin",
+    "Weapon1":
+    {
+        "WeaponName":"Monkey Fists",
+        "Primary":"Monkey Punch", 
+        "PrimaryD":"Punches",
+        "Secondary":"Monkey Grab",
+        "SecondaryD":"Grabs an enemy temporarily stunning them and yourself dealing small damage."
+    },
+    "Ability1": "Monkey jump",
+    "Ability1D":"Leaps through the air. If you hit a wall during your jump you are given the option to perform an additional wall jump.",
+    "Ability2":"Banana Gun",
+    "Ability2D":"Shoots a large banana projectile that explodes on impact dealing big damage and slowly enemies in blast radius.",
+    "Passive": "Band of apes",
+    "PassiveD": "When an ally is within close vicinity you and ally gain increased movement speed.",
+    "Ultimate": "Monkey scream",
+    "UltimateD":"Enrages yourself for some time. Monkey jump and Monkey grab cooldowns drastically reduced. Gain a damage increase. Allies in radius of you when ultimate is used gain temporary movement speed increase."
+}

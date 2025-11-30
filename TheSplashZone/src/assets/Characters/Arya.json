@@ -1,0 +1,32 @@
+{ 
+    "img": "splasher22",
+    "alias": "Area", 
+    "name": "(Arya)",
+    "bio": "The diversity hire 💡", 
+    "stats": 
+    { 
+        "Wetness": 9,
+        "RageBaiting": 7, 
+        "Speedrunning": 1, 
+        "Aura": 9,
+        "Brainrot": 6  
+    }, 
+    "colour":"#0b1f26", 
+    "role":"Evil Support",
+    "Weapon1":
+    {
+        "WeaponName":"FIREBALL 🔥🔥🔥",
+        "Primary":"LET IT ALL BURN", 
+        "PrimaryD":"Let out a large fireball engulfing everyone in a radius (like DND fireball), single shot.",
+        "Secondary":"Announce your presence",
+        "SecondaryD":"Yells out a voice line to everyone on the map announcing your full wizard name."
+    },
+    "Ability1": "Absorb the flames",
+    "Ability1D":"Place an orb on an ally, if the fireball hits them heal (low cool down).",
+    "Ability2":"Explosive channel",
+    "Ability2D":"Place an orb on an ally, if the fireball hits them, then a second fireball occurs from their location (high cool down).",
+    "Passive": "Friendly Fire",
+    "PassiveD": "Can deal damage to allies.",
+    "Ultimate": "Release the Sun",
+    "UltimateD":"Shoot out a slow moving orb that insta kills anything in its way."
+}

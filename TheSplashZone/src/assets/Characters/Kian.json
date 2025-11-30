@@ -1,0 +1,32 @@
+{ 
+    "img": "splasher11",
+    "alias": "Keieon", 
+    "name": "(Kian)",
+    "bio": "The most cool and performative 🌹", 
+    "stats": 
+    { 
+        "Wetness": 10,
+        "RageBaiting": 5, 
+        "Speedrunning": 2, 
+        "Aura": 9,
+        "Brainrot": 7  
+    }, 
+    "colour": "#99ecabff", 
+     "role":"Galio",
+    "Weapon1":
+    {
+        "WeaponName":"Golden Fists",
+        "Primary":"Power Pummel", 
+        "PrimaryD":"Punches enemies in front of Keieon, alternating fists.",
+        "Secondary":"Slammo Bammo",
+        "SecondaryD":"On cooldown, reduced when using abilities. Slam the ground in a medium area around Keieon. If airborne, crash into the ground."
+    },
+    "Ability1": "Spinerino",
+    "Ability1D":"Keieon dashes into enemies, spinning his wings in a circle, knocking up enemies in his path.",
+    "Ability2":"Gust of Phnom",
+    "Ability2D":"Launch a ranged attack with Keieons large wings, damage is boosted while in the air.",
+    "Passive": "Justice Smith from Detective Pikachu",
+    "PassiveD": "Keieon can charge his jump on a short cooldown, launching him high in the air. He can glide while in his passive.",
+    "Ultimate": "The Dunk Prophecy",
+    "UltimateD":"Keieon leaps high into the air, and can select one of his teammates to jump to. On landing he yells 'THE DUNK PROPHECY' and stuns all enemies in a large radius around his landing, while providing teammates in the radius a small shield."
+}

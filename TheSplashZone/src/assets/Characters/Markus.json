@@ -1,0 +1,32 @@
+{ 
+    "img": "splasher21",
+    "alias": "Martics", 
+    "name": "(Markus)",
+    "bio": "The greatest and the whitest 😸", 
+    "stats": 
+    { 
+        "Wetness": 7,
+        "RageBaiting": 4, 
+        "Speedrunning": 8, 
+        "Aura": 7,
+        "Brainrot": 7  
+    }, 
+    "colour": "#000000ff", 
+    "role":"White Supremacist / Chemist",
+    "Weapon1":
+    {
+        "WeaponName":"Colt Canada C8 carbine",
+        "Primary":"Hip fire", 
+        "PrimaryD":"Shoots at 750–950 rounds per minute, has high recoil and is hitscan.",
+        "Secondary":"Aim down sights",
+        "SecondaryD":"aims down has reduced spread,recoil and fire rate."
+    },
+    "Ability1": "Calc is slang for calculator",
+    "Ability1D":"Gives a stat boost after preforming a calculation.",
+    "Ability2":"Oops! Chemical spill",
+    "Ability2D":"Spills chemicals in an area that damage and slow enemies.",
+    "Passive": "Mad Scientist",
+    "PassiveD": "Emits a tremendous aura.",
+    "Ultimate": "HEXANITROHEXAAZAISOWURTZITANE",
+    "UltimateD":"Launches a missile at a target location doing large damage."
+}

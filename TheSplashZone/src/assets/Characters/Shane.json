@@ -1,0 +1,40 @@
+{
+  "img": "splasher10",
+  "alias": "Banana Boy",
+  "name": "(Shane)",
+  "bio": "Just a yellow guy that loves bananas 🍌",
+  "stats": 
+  {
+    "Wetness": 7,
+    "RageBaiting": 7,
+    "Speedrunning": 7,
+    "Aura": 5,
+    "Brainrot": 6
+  },
+  "colour": "#a79b00ff",
+  "role":"Support/Assassin",
+  "Weapon1": 
+  {
+    "WeaponName":"Scissors",
+    "Primary": "Cut",
+    "PrimaryD": "Scissor attack",
+    "Secondary": "Snip",
+    "SecondaryD": "snipsnip"
+  },
+  "Weapon2": 
+  {
+    "WeaponName":"BANANA",
+    "Primary": "Share",
+    "PrimaryD": "Give Banana to Ally.",
+    "Secondary": "Eat",
+    "SecondaryD": "Eat a Banana."
+  },
+  "Ability1": "Banana Peel",
+  "Ability1D": "Create a slippery banana trap.",
+  "Ability2": "Ich bin ein baby Kätzchen. Wo ist meine Mama?",
+  "Ability2D": "Teleports to an ally.",
+  "Passive": "Is that a Banana in your pocket or ...?",
+  "PassiveD": "Seems to always have another banana.",
+  "Ultimate": "Banana Storm",
+  "UltimateD": "Creates a rain of bananas that heals allies and slips up enemies."
+}

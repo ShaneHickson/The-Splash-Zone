@@ -1,0 +1,32 @@
+{ 
+    "img": "newsplasher01",
+    "alias": "Dino1", 
+    "name": "(Brandon)",
+    "bio": "Genuinely Braindead 💀", 
+    "stats": 
+    { 
+        "Wetness": 6,
+        "RageBaiting": 8, 
+        "Speedrunning": 8, 
+        "Aura": 4,
+        "Brainrot": 7  
+    }, 
+    "colour": "#4e039b", 
+    "role":"Rock Muncher",
+    "Weapon1":
+    {
+        "WeaponName":"Core Blaster",
+        "Primary":"Gravel Burst", 
+        "PrimaryD":"Fires a cluster of molten rock.",
+        "Secondary":"Core Piercer",
+        "SecondaryD":"Charges up and fires a sharp rock."
+    },
+    "Ability1": "Sediment Shield",
+    "Ability1D":"Creates a temporary shield.",
+    "Ability2":"Fossil Hook",
+    "Ability2D":"Launches a hardened fossil at the enemies pulling them in.",
+    "Passive": "Rock Munching",
+    "PassiveD": "Eating rocks restores health.",
+    "Ultimate": "Continental Crush",
+    "UltimateD":"Smashes the ground causing tectonic plates to crush and stun enemies caught between."
+}

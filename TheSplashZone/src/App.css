@@ -59,6 +59,7 @@ p {
     border-radius: 10px;
     /* rounded corners (optional) */
    max-width: 900px;
+   color: #003f66;
 }
 
 .stick-figures img {
@@ -69,8 +70,9 @@ p {
     padding-left: 50px;
     padding-right: 50px;
     border-color: #ff02f2;
-    border-radius:8ric;
+    border-radius:8px;
     border-width: 10px;
+    color: #003f66;
 }
 
 .stick-figures img:hover {
@@ -90,10 +92,41 @@ p {
     height: auto;
     cursor: pointer;
     margin: 1rem 0;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+/* instagram button */
+.insta-logo {
+    width: clamp(25px, 6vw, 43px);
+    height: auto;
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 5px;
+    vertical-align: middle;
+}
+.tiktok-logo{
+    width: clamp(25px, 6vw, 43px);
+    height: auto;
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 5px;
+    vertical-align: middle;}
+
+.insta-logo:hover {
+    transform: scale(1.1);
+}
+
+.tiktok-logo:hover {
+    transform: scale(1.1);
 }
 
 .youtube-logo:hover {
     transform: scale(1.1);
+}
+
+.top-left-logo:hover{
+     transform: scale(1.1);
 }
 
 /* Mobile adjustments */
@@ -164,24 +197,36 @@ p {
     font-size: 0.9rem;
     max-width: 900px;
     text-align: left;
+    color: #003f66;
     /* ✅ This puts text left + image right */
-    display: flex;
+    /*display: flex;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 1rem;*/
 }
 .bio .figure-img {
     width: 35%;
     max-width: 250px;
     height: auto;
     border-radius: 8px;
+    margin-left: 1rem;
 }
-.bio > *:first-child {
-    flex: 1;   /* text takes remaining space */
+.bio-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.bio-img {
+  width: 35%;
+  max-width: 250px;
+  border-radius: 8px;
+  margin-left: auto;
+}
+
 
 /* Show when active */
 .stick-figure.active .bio {
-    display: flex;
+    display: block;
 }
 
 .splashzone-bio {
@@ -189,7 +234,7 @@ p {
   margin: 2rem auto 1rem;
   background: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   font-size: 1.1rem;
   line-height: 1.6;
   color: #003f66;

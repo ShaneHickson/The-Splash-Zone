@@ -1,0 +1,31 @@
+{ 
+    "img": "newsplasher11",
+    "alias": "Jake", 
+    "name": "(Jake)",
+    "bio": "Master waiter ⏱",
+    "stats": 
+    { 
+        "Wetness": 1,
+        "RageBaiting": 1, 
+        "Speedrunning": 10, 
+        "Aura": 10,
+        "Brainrot": 10
+    }, 
+    "colour": "#FFFFFF", 
+    "role":"Jake",
+    "Weapon1":
+    {
+        "WeaponName":"Last minute addition",
+        "Primary":"Placeholder", 
+        "PrimaryD":"Shoots softer but faster.",
+        "SecondaryD":"Shoots harder but slower."
+    },
+    "Ability1": "Under pressure",
+    "Ability1D":"Increase fire rate and movespeed.",
+    "Ability2":"No time for this",
+    "Ability2D":"Increase fire rate and movespeed.",
+    "Passive": "Procrastination",
+    "PassiveD": "Increase Ult charge when not moving.",
+    "Ultimate": "It's due tonight!",
+    "UltimateD": "Increased fire rate, and stuff."
+} 

@@ -1,0 +1,32 @@
+{ 
+    "img": "newsplasher10",
+    "alias": "Cho Chungus", 
+    "name": "(Christian)",
+    "bio": "Likes to bongo on his belly 👶", 
+    "stats": 
+    { 
+        "Wetness": 10,
+        "RageBaiting": 9, 
+        "Speedrunning": 1, 
+        "Aura": 6,
+        "Brainrot": 6  
+        }, 
+    "colour": "#dfc5fe", 
+    "role": "Tank",
+    "Weapon1": 
+    {
+        "WeaponName": "Chin Plucker",
+        "Primary": "Shotburst Flick",
+        "PrimaryD": "Plucks a chin hair and flicks it forward in a short-range burst. Functions like a tight shotgun spread: high damage up close, heavy falloff at distance.",
+        "Secondary": "Focused Tug",
+        "SecondaryD": "A carefully pulled, tension-charged hair that fires as a single, precise projectile with improved accuracy and moderate damage."
+    },
+    "Ability1": "Yogurt Bulwark",
+    "Ability1D": "You eat an entire cup of yogurt. Within moments, your stomach bloats outward and forms a forward barrier. Absorbs a large amount of frontal damage but limits mobility slightly.",
+    "Ability2": "Gas Grenades",
+    "Ability2D": "Throws up to three gas bombs that burst into clouds of… unfortunate fumes. Enemies inside the area are slowed and take damage over time.",
+    "Passive": "Pressure Build-Up",
+    "PassiveD": "Taking damage slowly increases your internal pressure. When the meter is full, your next melee hit deals bonus knockback.",
+    "Ultimate": "Rampaging Rumble",
+    "UltimateD": "For 10 seconds, you gain greatly increased movement speed when not firing. You can lunge forward to close distance and repeatedly bongo-slap your stomach, creating a shockwave that stuns and knocks back enemies in a small radius. Each slam also provides a light heal to nearby allies. Moderate cooldown between slams prevents spamming."
+}

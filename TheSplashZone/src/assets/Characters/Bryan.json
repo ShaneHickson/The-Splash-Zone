@@ -1,0 +1,32 @@
+{ 
+    "img": "splasher20",
+    "alias": "BennyMaxwell", 
+    "name": "(Bryan)",
+    "bio": "Master of splashes and cool intros 🌊", 
+    "stats": 
+    { 
+        "Wetness": 10,
+        "RageBaiting": 10, 
+        "Speedrunning": 10, 
+        "Aura": 10,
+        "Brainrot": 6  
+    }, 
+    "colour": "#2A1F45", 
+    "role":"Master Baiter / Clip Farmer",
+    "Weapon1":
+    {
+        "WeaponName":"The Splicer",
+        "Primary":"Splice", 
+        "PrimaryD":"Rapid, melee-range burst attack.",
+        "Secondary":"Jump Cut",
+        "SecondaryD":"Teleports you a short distance and makes Afterimage."
+    },
+    "Ability1": "Second Take",
+    "Ability1D":"Create Afterimage that mimics you.",
+    "Ability2":"Fade Out / Fade In",
+    "Ability2D":"Fade Out: Fades out | Fade In: Fades in and do damage.",
+    "Passive": "The Director",
+    "PassiveD": "Get Frames to use Abilities. Can make Afterimages.",
+    "Ultimate": "Absolute Cinema",
+    "UltimateD": "Abilities stronger, frames come faster, Afterimages better."
+}

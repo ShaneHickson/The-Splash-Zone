@@ -1,0 +1,32 @@
+{ 
+    "img": "splashlogo",
+    "alias": "Coming Soon", 
+    "name": "(This could be you)",
+    "bio": "Coming Soon🧌", 
+    "stats": 
+    { 
+        "Wetness": 0,
+        "RageBaiting": 0, 
+        "Speedrunning": 0, 
+        "Aura": 0,
+        "Brainrot": 7  
+    }, 
+    "colour": "#96d9ffff", 
+    "role":"Coming Soon",
+    "Weapon1":
+    {
+        "WeaponName":"Coming Soon",
+        "Primary":"Coming Soon", 
+        "PrimaryD":"Coming Soon",
+        "Secondary":"Coming Soon",
+        "SecondaryD":"Coming Soon"
+    },
+    "Ability1": "Coming Soon",
+    "Ability1D":"Coming Soon",
+    "Ability2":"Coming Soon",
+    "Ability2D":"Coming Soon",
+    "Passive": "Coming Soon",
+    "PassiveD": "Coming Soon",
+    "Ultimate": "Coming Soon",
+    "UltimateD":"Coming Soon"
+}
